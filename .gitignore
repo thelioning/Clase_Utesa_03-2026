@@ -4,6 +4,8 @@ tmp_*.png
 *.inspect.ndjson
 
 # Libros completos: conservarlos únicamente en la copia local de trabajo
+Electronica Analogica I Labs_001/Electronica Teoria de Circuitos y Dispositivos Electronicos.pdf
+Electronica Analogica I Labs_002/Electronica Teoria de Circuitos y Dispositivos Electronicos.pdf
 Fundamento de Fisica Electrica/Física Universitaría.pdf
 Laboratorio Lenguaje C Embebido/Fundamentos De Programacion Piensa En C.pdf
 Laboratorio Lenguaje C Embebido/Introduccion-al-lenguaje-c.pdf
