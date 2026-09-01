@@ -1,0 +1,11 @@
+# Archivos temporales de revisión y renderizado
+tmp_*/
+tmp_*.png
+*.inspect.ndjson
+
+# Libros completos: conservarlos únicamente en la copia local de trabajo
+Fundamento de Fisica Electrica/Física Universitaría.pdf
+Laboratorio Lenguaje C Embebido/Fundamentos De Programacion Piensa En C.pdf
+Laboratorio Lenguaje C Embebido/Introduccion-al-lenguaje-c.pdf
+Microprocesadores II Teoria/Documentacion/01_ARM_Cortex_M3/The definitive guide to the ARM CORTEX-M3 2nd.pdf
+Microprocesadores II Teoria/Documentacion/02_Sistemas_Embebidos/OReilly_Programming_Embedded_Systems_Second_edition_ebook.pdf
