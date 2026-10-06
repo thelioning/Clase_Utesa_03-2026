@@ -1,65 +1,39 @@
-# Clase UTESA — Ciclo 03-2026
+# Clase UTESA · Ciclo 03-2026
 
-Este documento es el mapa de consulta de la carpeta principal. Describe la organización actual y el material disponible en cada asignatura. No asigna capítulos ni temas específicos a los libros.
+Mapa de materiales docentes. Actualización: 6 de octubre de 2026. «Disponible» significa que el archivo está publicado; no certifica todo el curso ni una prueba física de sus prácticas.
 
-> Los libros completos se conservan localmente y no se publican en GitHub. Los materiales docentes, presentaciones, guías, tareas e índices sí se organizan para su consulta desde el repositorio.
+## Material publicado
 
-## Carpetas principales
+| Asignatura | Material disponible | Cobertura pendiente |
+|---|---|---|
+| [Fundamentos de Física Eléctrica](Fundamento%20de%20Fisica%20Electrica) | Programa, documentos de evaluación, presentación base y semana 1 con presentación UTESA, guía y tarea | No hay semanas posteriores organizadas |
+| [Laboratorio de C Embebido](Laboratorio%20Lenguaje%20C%20Embebido) | Índice de 23 temas; semana 1; clase, cinco actividades y ejemplos de operadores de semana 2; documentación AVR | Restantes temas del índice |
+| [Microprocesadores II · Teoría](Microprocesadores%20II%20Teoria) | Plan de 12 semanas; clases desarrolladas de semanas 1 y 2 | Semanas 3–12 |
+| [Microprocesadores II · Laboratorio](Microprocesadores%20II%20Labs) | 12 documentos técnicos; prácticas correspondientes a semanas 1 y 2; ejemplo mínimo C | Prácticas de semanas 3–12 y pruebas físicas de las nuevas guías |
+| [Introducción a la Ingeniería Electrónica](Introduccion%20a%20la%20Ingenieria%20Electronica) | Materiales PDF existentes de semanas 1 y 2 | Cuestionarios, siguientes semanas y selección de sus versiones |
+| [Electrónica Analógica I](Electronica%20Analogica%20I) | Material de media onda y guía de siete prácticas, comunes para secciones 001 y 002 | Programa completo y siguientes unidades no documentados en este repositorio |
 
-### `Electronica Analogica I Labs_001`
+## Versiones de consulta
 
-- **Material local de consulta:** `Electronica Teoria de Circuitos y Dispositivos Electronicos.pdf`.
+- Física, semana 1: `Clase_1_Campo_Electrico_UTESA.pptx`. Las otras presentaciones permanecen en `Versiones_anteriores`; UTESA y Actualizada tienen el mismo texto.
+- C, semana 1: `Semana 1/01_Clase_Tipos_de_Datos_y_Variables.docx`, antes situado en la raíz. La alternativa de reloj externo se conserva en `Versiones_anteriores`.
+- La clase de C usa simulación a 1 MHz; la tarea física independiente prescribe reloj externo de 8 o 16 MHz. Leer el README de semana 1 antes de combinarlas. `F_CPU` no cambia el reloj del chip.
+- Los PDF de Introducción y de media onda se importaron sin cambiar su contenido. Los README de cada área identifican su alcance. No se publican solucionarios en este cambio.
 
-### `Electronica Analogica I Labs_002`
+## Planificación y próximos pasos
 
-- **Material local de consulta:** `Electronica Teoria de Circuitos y Dispositivos Electronicos.pdf`.
+Los índices son planificación, no evidencia de clases impartidas. El índice de C prevé 23 temas; el de Microprocesadores vincula cada una de las 12 semanas de teoría a una práctica.
 
-### `Fundamento de Fisica Electrica`
+1. Realizar y registrar en laboratorio las nuevas prácticas de C y de identificación/SWD; documentar diferencias del equipo real.
+2. Desarrollar semana 3 de Microprocesadores: reloj, memoria y arranque, con práctica correspondiente; continuar después con GPIO.
+3. Preparar los siguientes temas de C según el índice, con atención a decisiones, consola y ejercicios graduales.
+4. Revisar los cuestionarios de Introducción por separado antes de seleccionar versiones y recursos externos.
+5. Contrastar Electrónica Analógica con su programa oficial antes de añadir unidades o declarar completa la asignatura.
 
-- Programa oficial de la asignatura.
-- Trabajo y evaluación parcial.
-- Presentación base: `tema I.pptx`.
-- **Libro local de consulta:** `Física Universitaría.pdf`.
-- Subcarpeta `Semana 1 - Campo Electrico`:
-  - Presentación actualizada de la clase.
-  - Presentación con paleta UTESA.
-  - Guía docente para ejercicios del capítulo 21.
-  - Tarea 1 del capítulo 21.
+## Recursos exclusivamente locales
 
-### `Introduccion a la Ingenieria Electronica`
+Los libros completos se conservan fuera de GitHub y se excluyen de publicación: *Física Universitaria*, *Introducción al lenguaje C*, *Fundamentos de programación: Piensa en C*, *The Definitive Guide to the ARM Cortex-M3*, *Programming Embedded Systems, Second Edition* y *Electrónica: teoría de circuitos y dispositivos electrónicos*. Su ausencia en `main` es deliberada. Un nombre listado aquí no confirma que se pueda descargar desde el repositorio.
 
-- Carpeta creada para organizar posteriormente el material de la asignatura.
+## Validación y límites
 
-### `Laboratorio Lenguaje C Embebido`
-
-- Índice del curso: `00_Indice_Temario_C_a_BareMetal.md`.
-- Material de clase sobre tipos de datos y variables.
-- Documentación técnica del ATmega328P:
-  - Hoja de datos.
-  - Erratas.
-  - Nota de aplicación I²C/USI.
-  - Nota de aplicación SPI.
-- Subcarpeta `Semana 1`:
-  - Clase 1: tipos de datos y variables.
-  - Tarea práctica: montaje físico con `PORTD`.
-- **Libros locales de consulta:** `Introduccion-al-lenguaje-c.pdf` y `Fundamentos De Programacion Piensa En C.pdf`.
-
-### `Microprocesadores II Labs`
-
-- Subcarpeta `Documentacion`, organizada en:
-  - `01_STM32F103`: hoja de datos, manual de referencia, manuales de programación y erratas.
-  - `02_Cortex_M3`: manual técnico del núcleo ARM Cortex-M3.
-  - `03_Hardware_Blue_Pill`: esquema de la placa Blue Pill.
-  - `04_Protocolos`: especificación del bus I²C.
-  - `05_Notas_de_Aplicacion`: notas de aplicación AN2586, AN2824, AN2834 y AN4013.
-
-### `Microprocesadores II Teoria`
-
-- Índice de temas para 12 semanas: `00_Indice_Temario_12_Semanas.md`.
-- Subcarpeta `Documentacion`:
-  - `01_ARM_Cortex_M3`: libro *The Definitive Guide to the ARM Cortex-M3* (consulta local).
-  - `02_Sistemas_Embebidos`: libro *Programming Embedded Systems, Second Edition* (consulta local).
-
-## Cómo usar este mapa
-
-Al consultar este repositorio desde ChatGPT, indique la asignatura o ruta de interés; por ejemplo: `Microprocesadores II Labs/Documentacion/01_STM32F103` o `Fundamento de Fisica Electrica/Semana 1 - Campo Electrico`.
+Los documentos nuevos se revisaron para coherencia de rutas y datos; el ejemplo de consola se compila y ejecuta como parte de la revisión. La compilación de ejemplos bare-metal se registrará según la disponibilidad de toolchains. No se afirma haber probado Blue Pill, ATmega328P, Proteus o ST-LINK físicamente. Consulte [el registro de cambios](CAMBIOS_2026-10-06.md) para resultados concretos.
