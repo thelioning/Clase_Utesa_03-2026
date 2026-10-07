@@ -1,6 +1,6 @@
 # Clase UTESA · Ciclo 03-2026
 
-Mapa de materiales docentes. Actualización: 6 de octubre de 2026. «Disponible» significa que el archivo está publicado; no certifica todo el curso ni una prueba física de sus prácticas.
+Mapa de materiales docentes. Actualización: 7 de octubre de 2026. «Disponible» significa que el archivo está publicado; no certifica todo el curso ni una prueba física de sus prácticas.
 
 ## Material publicado
 
@@ -8,8 +8,8 @@ Mapa de materiales docentes. Actualización: 6 de octubre de 2026. «Disponible�
 |---|---|---|
 | [Fundamentos de Física Eléctrica](Fundamento%20de%20Fisica%20Electrica) | Programa, documentos de evaluación, presentación base y semana 1 con presentación UTESA, guía y tarea | No hay semanas posteriores organizadas |
 | [Laboratorio de C Embebido](Laboratorio%20Lenguaje%20C%20Embebido) | Índice de 23 temas; semana 1; clase, cinco actividades y ejemplos de operadores de semana 2; documentación AVR | Restantes temas del índice |
-| [Microprocesadores II · Teoría](Microprocesadores%20II%20Teoria) | Plan de 12 semanas; clases desarrolladas de semanas 1 y 2 | Semanas 3–12 |
-| [Microprocesadores II · Laboratorio](Microprocesadores%20II%20Labs) | 12 documentos técnicos; prácticas correspondientes a semanas 1 y 2; ejemplo mínimo C | Prácticas de semanas 3–12 y pruebas físicas de las nuevas guías |
+| [Microprocesadores II · Teoría](Microprocesadores%20II%20Teoria) | Plan de 12 semanas; clases desarrolladas de semanas 1–3 | Semanas 4–12 |
+| [Microprocesadores II · Laboratorio](Microprocesadores%20II%20Labs) | 12 documentos técnicos; prácticas correspondientes a semanas 1–3; ejemplos C de depuración y lectura de registros | Prácticas de semanas 4–12 y pruebas físicas de las nuevas guías |
 | [Introducción a la Ingeniería Electrónica](Introduccion%20a%20la%20Ingenieria%20Electronica) | Materiales PDF existentes de semanas 1 y 2 | Cuestionarios, siguientes semanas y selección de sus versiones |
 | [Electrónica Analógica I](Electronica%20Analogica%20I) | Material de media onda y guía de siete prácticas, comunes para secciones 001 y 002 | Programa completo y siguientes unidades no documentados en este repositorio |
 
@@ -25,7 +25,7 @@ Mapa de materiales docentes. Actualización: 6 de octubre de 2026. «Disponible�
 Los índices son planificación, no evidencia de clases impartidas. El índice de C prevé 23 temas; el de Microprocesadores vincula cada una de las 12 semanas de teoría a una práctica.
 
 1. Realizar y registrar en laboratorio las nuevas prácticas de C y de identificación/SWD; documentar diferencias del equipo real.
-2. Desarrollar semana 3 de Microprocesadores: reloj, memoria y arranque, con práctica correspondiente; continuar después con GPIO.
+2. Realizar la práctica de semana 3 de Microprocesadores (reloj, memoria y arranque) y desarrollar después semana 4 de GPIO con su práctica.
 3. Preparar los siguientes temas de C según el índice, con atención a decisiones, consola y ejercicios graduales.
 4. Revisar los cuestionarios de Introducción por separado antes de seleccionar versiones y recursos externos.
 5. Contrastar Electrónica Analógica con su programa oficial antes de añadir unidades o declarar completa la asignatura.
@@ -36,4 +36,4 @@ Los libros completos se conservan fuera de GitHub y se excluyen de publicación:
 
 ## Validación y límites
 
-Los documentos nuevos se revisaron para coherencia de rutas y datos; el ejemplo de consola se compila y ejecuta como parte de la revisión. La compilación de ejemplos bare-metal se registrará según la disponibilidad de toolchains. No se afirma haber probado Blue Pill, ATmega328P, Proteus o ST-LINK físicamente. Consulte [el registro de cambios](CAMBIOS_2026-10-06.md) para resultados concretos.
+Los documentos nuevos se revisaron para coherencia de rutas y datos; el ejemplo de consola se compila y ejecuta como parte de la revisión. La compilación de ejemplos bare-metal se registrará según la disponibilidad de toolchains. No se afirma haber probado Blue Pill, ATmega328P, Proteus o ST-LINK físicamente. Consulte [el registro de cambios](CAMBIOS_2026-10-06.md) para resultados concretos, y [la actualización de semana 3](CAMBIOS_2026-10-07.md).
